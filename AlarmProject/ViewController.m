@@ -17,9 +17,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    CGRect labelFrame = CGRectMake(100, 100, 100, 50);
+    int outerWidth = self.view.frame.size.width;
+    //int outerHeight = self.view.frame.size.height;
+    int margin = 50;
+    int width = outerWidth - (margin *2);
+    
+    CGRect labelFrame = CGRectMake((outerWidth / 2) - (width /2),
+                                   100,
+                                   width,
+                                   140);
     UILabel *timeLabel = [[UILabel alloc] initWithFrame:labelFrame];
     timeLabel.text = @"12:00";
+    timeLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin |
+        UIViewAutoresizingFlexibleRightMargin |
+        UIViewAutoresizingFlexibleWidth
+        ;
+    timeLabel.textAlignment = NSTextAlignmentCenter;
+    timeLabel.numberOfLines = 1;
+    timeLabel.font = [timeLabel.font fontWithSize:300.];
+    timeLabel.minimumScaleFactor = 1./timeLabel.font.pointSize;
+    timeLabel.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
+    timeLabel.adjustsFontSizeToFitWidth = YES;
+
+
+    timeLabel.backgroundColor = [UIColor clearColor];
+    NSLog(@"%d", self.view.autoresizesSubviews);
     [self.view addSubview:timeLabel];
     
     
