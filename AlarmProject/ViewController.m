@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CGRect labelFrame = CGRectMake(100, 100, 100, 50);
+    UILabel *timeLabel = [[UILabel alloc] initWithFrame:labelFrame];
+    timeLabel.text = @"12:00";
+    [self.view addSubview:timeLabel];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
