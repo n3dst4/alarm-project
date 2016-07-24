@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AlarmClockView.h"
 
 @interface ViewController ()
 
@@ -16,16 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    CGRect frame = self.view.frame;
+    self.view = [[AlarmClockView alloc] initWithFrame:frame];
+    
     // Do any additional setup after loading the view, typically from a nib.
     int outerWidth = self.view.frame.size.width;
     //int outerHeight = self.view.frame.size.height;
     int margin = 50;
     int width = outerWidth - (margin *2);
+    int height = 200;
     
     CGRect labelFrame = CGRectMake((outerWidth / 2) - (width /2),
                                    100,
                                    width,
-                                   140);
+                                   height);
     UILabel *timeLabel = [[UILabel alloc] initWithFrame:labelFrame];
     timeLabel.text = @"12:00";
     timeLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin |

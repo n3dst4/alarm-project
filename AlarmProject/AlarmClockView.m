@@ -17,5 +17,14 @@
     // Drawing code
 }
 */
+- (AlarmClockView *) initWithFrame:(CGRect)aFrame {
+    self = [super initWithFrame:aFrame];
+    self.backgroundColor = [UIColor whiteColor];
+    return self;
+}
+
+- (void) layoutSubviews {
+    
+}
 
 @end

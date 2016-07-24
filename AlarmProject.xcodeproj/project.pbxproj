@@ -16,6 +16,7 @@
 		6563AE301D44D77F008BEAB5 /* AlarmProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563AE2F1D44D77F008BEAB5 /* AlarmProjectTests.m */; };
 		6563AE3B1D44D77F008BEAB5 /* AlarmProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563AE3A1D44D77F008BEAB5 /* AlarmProjectUITests.m */; };
 		6563AE491D44D9E1008BEAB5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6563AE481D44D9E1008BEAB5 /* .gitignore */; };
+		6563AE4C1D451C1C008BEAB5 /* AlarmClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563AE4B1D451C1C008BEAB5 /* AlarmClockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6563AE3A1D44D77F008BEAB5 /* AlarmProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmProjectUITests.m; sourceTree = "<group>"; };
 		6563AE3C1D44D77F008BEAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6563AE481D44D9E1008BEAB5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6563AE4A1D451C1B008BEAB5 /* AlarmClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmClockView.h; sourceTree = "<group>"; };
+		6563AE4B1D451C1C008BEAB5 /* AlarmClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmClockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				6563AE191D44D77F008BEAB5 /* AppDelegate.m */,
 				6563AE1B1D44D77F008BEAB5 /* ViewController.h */,
 				6563AE1C1D44D77F008BEAB5 /* ViewController.m */,
+				6563AE4A1D451C1B008BEAB5 /* AlarmClockView.h */,
+				6563AE4B1D451C1C008BEAB5 /* AlarmClockView.m */,
 				6563AE1E1D44D77F008BEAB5 /* Main.storyboard */,
 				6563AE211D44D77F008BEAB5 /* Assets.xcassets */,
 				6563AE231D44D77F008BEAB5 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 				6563AE1D1D44D77F008BEAB5 /* ViewController.m in Sources */,
 				6563AE1A1D44D77F008BEAB5 /* AppDelegate.m in Sources */,
 				6563AE171D44D77F008BEAB5 /* main.m in Sources */,
+				6563AE4C1D451C1C008BEAB5 /* AlarmClockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
