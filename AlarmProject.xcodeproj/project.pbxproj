@@ -15,6 +15,7 @@
 		6563AE251D44D77F008BEAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6563AE231D44D77F008BEAB5 /* LaunchScreen.storyboard */; };
 		6563AE301D44D77F008BEAB5 /* AlarmProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563AE2F1D44D77F008BEAB5 /* AlarmProjectTests.m */; };
 		6563AE3B1D44D77F008BEAB5 /* AlarmProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563AE3A1D44D77F008BEAB5 /* AlarmProjectUITests.m */; };
+		6563AE491D44D9E1008BEAB5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6563AE481D44D9E1008BEAB5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6563AE361D44D77F008BEAB5 /* AlarmProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6563AE3A1D44D77F008BEAB5 /* AlarmProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlarmProjectUITests.m; sourceTree = "<group>"; };
 		6563AE3C1D44D77F008BEAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6563AE481D44D9E1008BEAB5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		6563AE091D44D77E008BEAB5 = {
 			isa = PBXGroup;
 			children = (
+				6563AE481D44D9E1008BEAB5 /* .gitignore */,
 				6563AE141D44D77F008BEAB5 /* AlarmProject */,
 				6563AE2E1D44D77F008BEAB5 /* AlarmProjectTests */,
 				6563AE391D44D77F008BEAB5 /* AlarmProjectUITests */,
@@ -244,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6563AE491D44D9E1008BEAB5 /* .gitignore in Resources */,
 				6563AE251D44D77F008BEAB5 /* LaunchScreen.storyboard in Resources */,
 				6563AE221D44D77F008BEAB5 /* Assets.xcassets in Resources */,
 				6563AE201D44D77F008BEAB5 /* Main.storyboard in Resources */,
